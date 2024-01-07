@@ -8,9 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'bg-2':"url('/bg-red.png')",
+        'bg-1':"url('/bg-1.jpg')",
+        'bg-3':"url('/bg-3.png')",
+        'bg-4':"url('/image.png')",
+        'bg-5':"url('/logoImage.png')",
+        'bg-6':"url('/bg-6.jpg')",
+
+      },
+      fontFamily: {
+        'Sora':['Sora','sans-serif;'],
+        'Syn':['Syne','sans-serif']
       },
     },
   },
